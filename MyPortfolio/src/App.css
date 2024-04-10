@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+.body{
+  background-color: #171f38;
+}
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.img1 {
+  /* scale: 1; */
+}
+.img1:hover {
+  scale: 1.05;
+  transform: rotate(360deg);
+  transition: 1s;
+  cursor: pointer;
+  pointer-events: visibleFill(background-color=red);
+}
+.img {
+  scale: 1;
+}
+.img:hover {
+  scale: 1.05;
+  transition: 1s;
+  cursor: pointer;
+  border: 2px solid #497e83;
+  /* box-shadow: #497E83 0px -50px 36px -28px inset; */
+}
+.a {
+  scale: 1;
+}
+.a:hover {
+  scale: 1.07;
+}
+
+.sticky {
+  position: sticky;
+  /* position: relative; */
+  top: 0;
+  z-index: 9999;
+  transition-behavior:smooth;
+}
+.tab:hover{
+  cursor: pointer;
+  color: #497e83;
+}
+
+
+.shadow{
+   scale: 1;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 1) 0px 8px 16px -8px;
+
+}
+.shadow:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 2) 0px 8px 16px -8px;
+  scale: 1.05;
+  transition: 1s;
+  border-radius: "10px";
+}
